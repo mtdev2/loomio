@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 ruby '2.6.6'
-gem 'rack', '2.0.8'
+gem 'rack', '2.1.3'
 gem 'rails', '5.2.4.2'
 gem 'actioncable'
 gem 'rake'

@@ -31,6 +31,7 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
+
     actioncable (6.0.3)
       actionpack (= 6.0.3)
       nio4r (~> 2.0)
@@ -63,6 +64,27 @@ GEM
       nokogiri (>= 1.8.5)
     actionview (6.0.3)
       activesupport (= 6.0.3)
+
+    actioncable (5.2.4.3)
+      actionpack (= 5.2.4.3)
+      nio4r (~> 2.0)
+      websocket-driver (>= 0.6.1)
+    actionmailer (5.2.4.3)
+      actionpack (= 5.2.4.3)
+      actionview (= 5.2.4.3)
+      activejob (= 5.2.4.3)
+      mail (~> 2.5, >= 2.5.4)
+      rails-dom-testing (~> 2.0)
+    actionpack (5.2.4.3)
+      actionview (= 5.2.4.3)
+      activesupport (= 5.2.4.3)
+      rack (~> 2.0, >= 2.0.8)
+      rack-test (>= 0.6.3)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    actionview (5.2.4.3)
+      activesupport (= 5.2.4.3)
+depfu/update/group/rails-6.0.3
       builder (~> 3.1)
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
@@ -80,6 +102,7 @@ GEM
       ransack (~> 2.1, >= 2.1.1)
       sassc-rails (~> 2.1)
       sprockets (>= 3.0, < 4.1)
+
     activejob (6.0.3)
       activesupport (= 6.0.3)
       globalid (>= 0.3.6)
@@ -88,16 +111,35 @@ GEM
     activerecord (6.0.3)
       activemodel (= 6.0.3)
       activesupport (= 6.0.3)
+
+    activejob (5.2.4.3)
+      activesupport (= 5.2.4.3)
+      globalid (>= 0.3.6)
+    activemodel (5.2.4.3)
+      activesupport (= 5.2.4.3)
+    activerecord (5.2.4.3)
+      activemodel (= 5.2.4.3)
+      activesupport (= 5.2.4.3)
+      arel (>= 9.0)
+depfu/update/group/rails-6.0.3
     activerecord-import (1.0.4)
       activerecord (>= 3.2)
     activerecord-nulldb-adapter (0.4.0)
       activerecord (>= 2.0.0)
+
     activestorage (6.0.3)
       actionpack (= 6.0.3)
       activejob (= 6.0.3)
       activerecord (= 6.0.3)
       marcel (~> 0.3.1)
     activesupport (6.0.3)
+
+    activestorage (5.2.4.3)
+      actionpack (= 5.2.4.3)
+      activerecord (= 5.2.4.3)
+      marcel (~> 0.3.1)
+    activesupport (5.2.4.3)
+depfu/update/group/rails-6.0.3
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -267,7 +309,7 @@ GEM
     icalendar (2.6.1)
       ice_cube (~> 0.16)
     ice_cube (0.16.3)
-    image_processing (1.10.3)
+    image_processing (1.11.0)
       mini_magick (>= 4.9.5, < 5)
       ruby-vips (>= 2.0.17, < 3)
     inherited_resources (1.11.0)
@@ -311,7 +353,7 @@ GEM
     mini_magick (4.10.1)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
-    minitest (5.14.0)
+    minitest (5.14.1)
     msgpack (1.3.3)
     multi_json (1.14.1)
     multi_xml (0.6.0)
@@ -345,7 +387,7 @@ GEM
     public_suffix (4.0.4)
     puma (4.3.3)
       nio4r (~> 2.0)
-    rack (2.0.8)
+    rack (2.1.3)
     rack-attack (6.3.0)
       rack (>= 1.0, < 3)
     rack-protection (2.0.8.1)
@@ -356,6 +398,7 @@ GEM
     rack_session_access (0.2.0)
       builder (>= 2.0.0)
       rack (>= 1.0.0)
+
     rails (6.0.3)
       actioncable (= 6.0.3)
       actionmailbox (= 6.0.3)
@@ -370,6 +413,20 @@ GEM
       activesupport (= 6.0.3)
       bundler (>= 1.3.0)
       railties (= 6.0.3)
+
+    rails (5.2.4.3)
+      actioncable (= 5.2.4.3)
+      actionmailer (= 5.2.4.3)
+      actionpack (= 5.2.4.3)
+      actionview (= 5.2.4.3)
+      activejob (= 5.2.4.3)
+      activemodel (= 5.2.4.3)
+      activerecord (= 5.2.4.3)
+      activestorage (= 5.2.4.3)
+      activesupport (= 5.2.4.3)
+      bundler (>= 1.3.0)
+      railties (= 5.2.4.3)
+depfu/update/group/rails-6.0.3
       sprockets-rails (>= 2.0.0)
     rails-controller-testing (1.0.4)
       actionpack (>= 5.0.1.x)
@@ -385,9 +442,15 @@ GEM
       rails_stdout_logging
     rails_serve_static_assets (0.0.5)
     rails_stdout_logging (0.0.5)
+
     railties (6.0.3)
       actionpack (= 6.0.3)
       activesupport (= 6.0.3)
+
+    railties (5.2.4.3)
+      actionpack (= 5.2.4.3)
+      activesupport (= 5.2.4.3)
+depfu/update/group/rails-6.0.3
       method_source
       rake (>= 0.8.7)
       thor (>= 0.20.3, < 2.0)
@@ -428,9 +491,9 @@ GEM
       rspec-mocks (>= 2.99, < 4.0)
     rspec-collection_matchers (1.2.0)
       rspec-expectations (>= 2.99.0.beta1)
-    rspec-core (3.9.1)
-      rspec-support (~> 3.9.1)
-    rspec-expectations (3.9.1)
+    rspec-core (3.9.2)
+      rspec-support (~> 3.9.3)
+    rspec-expectations (3.9.2)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-its (1.3.0)
@@ -439,7 +502,7 @@ GEM
     rspec-mocks (3.9.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
-    rspec-rails (4.0.0)
+    rspec-rails (4.0.1)
       actionpack (>= 4.2)
       activesupport (>= 4.2)
       railties (>= 4.2)
@@ -447,7 +510,7 @@ GEM
       rspec-expectations (~> 3.9)
       rspec-mocks (~> 3.9)
       rspec-support (~> 3.9)
-    rspec-support (3.9.2)
+    rspec-support (3.9.3)
     ruby-saml (1.11.0)
       nokogiri (>= 1.5.10)
     ruby-vips (2.0.17)
@@ -572,11 +635,15 @@ DEPENDENCIES
   pg
   premailer-rails
   puma
-  rack (= 2.0.8)
+  rack (= 2.1.3)
   rack-attack
   rack-timeout
   rack_session_access
+
   rails (= 6.0.3)
+
+  rails (= 5.2.4.3)
+depfu/update/group/rails-6.0.3
   rails-controller-testing
   rails_12factor
   rails_serve_static_assets
